@@ -37,6 +37,50 @@ body.active {
 }
 
 /* ======= Header Section/Seção de Cabeçalho ======== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30rem;
+  background: #ed2d34;
+  padding: 2rem;
+  z-index: 1000;
+}
+.header .logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.header .navbar {
+  padding: 30% 0;
+}
+.header .navbar a {
+  display: block;
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: #fff;
+}
+.header .navbar a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.7rem;
+}
+.header .share {
+  text-align: center;
+}
+.header .share a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: #444;
+  margin: 0 0.3rem;
+}
+.header .share a:hover {
+  background: #444;
+  color: #fff;
+}
+
 /*
 Caminho para o gitbash 
 cd C:/Users/Daniel_Oliveira/Documents/GitHub/shoe-landing-page-website
