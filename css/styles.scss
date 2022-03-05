@@ -115,6 +115,7 @@ body{
             line-height: 5rem;
             font-size: 2rem;
             color: $black;
+            background: $white;
             margin: 0 .3rem;
 
             &:hover {
@@ -122,6 +123,13 @@ body{
                 color: $white;
             }
         }
+    }
+
+    .credit {
+        text-align: center;
+        font-size: 2rem;
+        color: $white;
+        margin-top: 3rem;
     }
 }
 

@@ -74,11 +74,18 @@ body.active {
   line-height: 5rem;
   font-size: 2rem;
   color: #444;
+  background: #fff;
   margin: 0 0.3rem;
 }
 .header .share a:hover {
   background: #444;
   color: #fff;
+}
+.header .credit {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 3rem;
 }
 
 /*
