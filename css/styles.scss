@@ -77,12 +77,16 @@ body{
 .header {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -31rem;
     height: 100%;
     width: 30rem;
     background: $red;
     padding: 2rem;
     z-index: 1000;
+
+    &.active {
+        left: 0;
+    }
 
     .logo {
         font-size: 2.5rem;
@@ -130,9 +134,30 @@ body{
         font-size: 2rem;
         color: $white;
         margin-top: 3rem;
+        line-height: 1.5;
     }
 }
 
+/* Menu-btn/Botão de menu */
+#menu-btn {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    background: $red;
+    color: $white; 
+    height: 5rem; /*altura*/
+    width: 5rem; /*Largura*/
+    line-height: 5rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    z-index: 1100;
+    text-align: center;
+
+    &.fa-times {
+        top: 1rem;
+        left: 25rem;
+    }
+}
 
 
 
