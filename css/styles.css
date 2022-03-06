@@ -49,9 +49,12 @@ section {
   cursor: pointer;
   background: none;
   color: #444;
+  font-size: 2rem;
 }
 .btn:hover {
-  border-color: #444;
+  border-color: #ed2d34;
+  color: #fff;
+  background: #ed2d34;
 }
 
 /* ======= Header Section/Seção de Cabeçalho ======== */

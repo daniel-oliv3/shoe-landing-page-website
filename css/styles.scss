@@ -85,9 +85,12 @@ section {
     cursor: pointer;
     background: none;
     color: $black;
+    font-size: 2rem;
 
     &:hover {
-        border-color: $black;
+        border-color: $red;
+        color: $white;
+        background: $red;
     }
 }
 
