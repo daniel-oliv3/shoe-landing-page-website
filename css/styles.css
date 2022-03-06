@@ -36,6 +36,24 @@ body.active {
   padding-left: 30rem;
 }
 
+section {
+  padding: 5rem 9%;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 5rem;
+  padding: 1.2rem 3rem;
+  border: 0.2rem solid #444;
+  cursor: pointer;
+  background: none;
+  color: #444;
+}
+.btn:hover {
+  border-color: #444;
+}
+
 /* ======= Header Section/Seção de Cabeçalho ======== */
 .header {
   position: fixed;
@@ -114,6 +132,40 @@ body.active {
   left: 25rem;
 }
 
+/* ======= Banner Section/Seção de Banner ======== */
+.banner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.banner .content {
+  flex: 1 1 41rem;
+}
+.banner .content span {
+  font-size: 2.5rem;
+  color: #ed2d34;
+}
+.banner .content h3 {
+  font-size: 4rem;
+  color: #444;
+  text-transform: capitalize;
+  padding-top: 1rem;
+}
+.banner .content p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  color: #666;
+  line-height: 2;
+  padding: 1rem 0;
+}
+.banner .image {
+  flex: 1 1 41rem;
+}
+.banner .image img {
+  width: 100%;
+}
+
 /* ======= Responsive/Responsividade ======== */
 @media (max-width: 1200px) {
   body.active {
@@ -127,6 +179,10 @@ body.active {
 @media (max-width: 991px) {
   html {
     font-size: 55%;
+  }
+
+  section {
+    padding: 3rem 2rem;
   }
 }
 @media (max-width: 450px) {
