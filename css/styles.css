@@ -40,6 +40,17 @@ section {
   padding: 5rem 9%;
 }
 
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  color: #444;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+.heading span {
+  color: #ed2d34;
+}
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -50,6 +61,7 @@ section {
   background: none;
   color: #444;
   font-size: 2rem;
+  text-transform: capitalize;
 }
 .btn:hover {
   border-color: #ed2d34;
@@ -168,6 +180,21 @@ section {
 }
 .banner .image img {
   width: 100%;
+}
+
+/* ======= Products Section/Seção de Produtos ======== */
+.products .slide {
+  text-align: center;
+}
+.products .slide img {
+  height: 25rem;
+  margin: 5rm 0;
+}
+.products .slide h3 {
+  padding: 1rem 0;
+  font-size: 2.5rem;
+  color: #444;
+  text-transform: capitalize;
 }
 
 /* ======= Responsive/Responsividade ======== */

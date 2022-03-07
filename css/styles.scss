@@ -76,6 +76,16 @@ section {
     padding: 5rem 9%;
 }
 
+.heading {
+    text-align: center;
+    @include titleText(4rem);
+    margin-bottom: 3rem;
+
+    span {
+        color: $red;
+    }
+}
+
 .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -86,6 +96,7 @@ section {
     background: none;
     color: $black;
     font-size: 2rem;
+    text-transform: capitalize;
 
     &:hover {
         border-color: $red;
@@ -216,8 +227,23 @@ section {
 }
 
 
+/* ======= Products Section/Seção de Produtos ======== */
+.products {
 
+    .slide {
+        text-align: center;
 
+        img {
+            height: 25rem;
+            margin: 5rm 0;
+        }
+
+        h3 {
+            padding: 1rem 0;
+            @include titleText(2.5rem);
+        }
+    }
+}
 
 
 
@@ -261,7 +287,7 @@ section {
         font-size: 3rem;
     }
 
-    
+
 }
 
 
