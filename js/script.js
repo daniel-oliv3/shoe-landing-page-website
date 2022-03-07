@@ -17,6 +17,23 @@ window.onscroll = () => {
     };
 };
 
+/**/
+let productPreviewContainer = document.querySelector('.products-preview-container');
+let prodcutPreview = document.querySelectorAll('.products-preview-container .product-preview');
+
+document.querySelectorAll('.products .slide .btn').forEach(detailBtn =>{
+  detailBtn.onclick = () =>{
+    productPreviewContainer.style.display = 'block';
+    let name = detailBtn.getAttribute('data-product');
+    prodcutPreview.forEach(preview =>{
+      let target = preview.getAttribute('data-target');
+      if(name == target){
+       preview.style.display = 'flex';
+      };
+    });
+  };
+});
+
 /*Swiper-slider btn slide*/
 var swiper = new Swiper(" .products-slider", {
     loop: true,
