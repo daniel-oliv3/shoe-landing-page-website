@@ -18,25 +18,18 @@ window.onscroll = () => {
 };
 
 /*Swiper-slider btn slide*/
-var swiper = new Swiper(" .mySwiper", {
-    slidesPerView: 1,
+var swiper = new Swiper(" .products-slider", {
+    loop: true,
     spaceBetween: 10,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
     breakpoints: {
-        640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+        0: {
+            slidesPerView: 1,
         },
         768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
+            slidesPerView: 2,
         },
-        1024: {
-            slidesPerView: 5,
-            spaceBetween: 50,
+        991: {
+            slidesPerView: 3,
         },
     },
 });
