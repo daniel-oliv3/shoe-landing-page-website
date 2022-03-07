@@ -263,20 +263,74 @@ section {
 
 
 /* ======= Products Preview Section/Seção de Visualização de Produtos ======== */
-.products-preview-container {
+.products-preview-container{
     position: fixed;
-    top: 0;
-    left: 0;
+    top:0; left:0;
     z-index: 1200;
     min-height: 100vh;
     width: 100%;
-    background: rgba(0, 0, 0, .8);
-
-    .products-preview {
-        @include flex(center);
+    background: rgba(0,0,0,.8);
+    display: none;
+ 
+    .product-preview{
+       @include flex(center);
+       background: $white;
+       padding:9%;
+       position: relative;
+       display: none;
+ 
+       .fa-times{
+          position: absolute;
+          top:2rem; right:2rem;
+          font-size: 4rem;
+          cursor: pointer;
+          color:$light-color;
+ 
+          &:hover{
+             color:$red;
+             transform: rotate(90deg);
+          }
+       }
+ 
+       .image{
+          flex:1 1 40rem;
+ 
+          img{
+             width: 100%;
+          }
+       }
+ 
+       .content{
+          flex:1 1 40rem;
+ 
+          h3{
+             @include titleText(3rem);
+          }
+ 
+          p{
+             @include graphText(1.5rem);
+          }
+ 
+          .stars{
+             padding:1rem 0;
+             font-size: 1.7rem;
+ 
+             i{
+                color:$red;
+             }
+ 
+             span{
+                color:$light-color;
+             }
+          }
+ 
+          .price{
+             @include titleText(3rem);
+             padding:1rem 0;
+          }
+       }
     }
-
-}
+ }
 
 
 
