@@ -21,6 +21,8 @@ window.onscroll = () => {
 var swiper = new Swiper(" .products-slider", {
     loop: true,
     spaceBetween: 10,
+    grapCursor: true,
+    centeredSlides: true,
     breakpoints: {
         0: {
             slidesPerView: 1,
