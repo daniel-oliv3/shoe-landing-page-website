@@ -207,6 +207,23 @@ section {
   opacity: 1;
 }
 
+/* ======= Products Preview Section/Seção de Visualização de Produtos ======== */
+.products-preview-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1200;
+  min-height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.products-preview-container .products-preview {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
 /* ======= Responsive/Responsividade ======== */
 @media (max-width: 1200px) {
   body.active {
