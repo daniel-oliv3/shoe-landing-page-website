@@ -185,6 +185,7 @@ section {
 /* ======= Banner Section/Seção de Banner ======== */
 .banner {
     @include flex(center);
+    flex-wrap: wrap-reverse;
 
     .content {
         flex: 1 1 41rem;
@@ -201,7 +202,7 @@ section {
 
         p {
             padding: 1rem 0;
-            @include graphText(1.5rem);
+            @include graphText(1.7rem);
         }
     }
 
@@ -255,6 +256,12 @@ section {
     html {
         font-size: 50%;
     }
+
+    .banner .content h3 {
+        font-size: 3rem;
+    }
+
+    
 }
 
 
@@ -271,5 +278,5 @@ cd C:/Users/Daniel_Oliveira/Documents/GitHub/shoe-landing-page-website
 SASS
 sass --watch ./css/styles.scss:./css/styles.css
 
-18m
+24m
 */
