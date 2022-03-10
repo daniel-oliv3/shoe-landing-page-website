@@ -34,6 +34,16 @@ document.querySelectorAll('.products .slide .btn').forEach(detailBtn =>{
   };
 });
 
+/* products Preview btn close*/
+document.querySelectorAll('.products-preview-container .product-preview .fa-times').forEach(close => {
+    close.onclick = () => {
+        productPreviewContainer.style.display = 'none';
+        prodcutPreview.forEach(closePreview => {
+            closePreview.style.display = 'none';
+        });
+    };
+})
+
 /*Swiper-slider btn slide*/
 var swiper = new Swiper(" .products-slider", {
     loop: true,
