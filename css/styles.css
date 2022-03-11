@@ -287,6 +287,17 @@ section {
   text-align: center;
   padding: 2rem;
 }
+.service .box i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #ed2d34;
+}
+.service .box p {
+  font-size: 2rem;
+  color: #666;
+  line-height: 2;
+  padding: 1rem 0;
+}
 
 /* ======= Responsive/Responsividade ======== */
 @media (max-width: 1200px) {
