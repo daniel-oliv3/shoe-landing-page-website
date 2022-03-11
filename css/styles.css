@@ -277,6 +277,17 @@ section {
   padding: 1rem 0;
 }
 
+/* ======= Services Section/Seção de Serviços ======== */
+.service {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.service .box {
+  text-align: center;
+  padding: 2rem;
+}
+
 /* ======= Responsive/Responsividade ======== */
 @media (max-width: 1200px) {
   body.active {
@@ -303,6 +314,10 @@ section {
 
   .banner .content h3 {
     font-size: 3rem;
+  }
+
+  .products .slide img {
+    height: 15rem;
   }
 }
 /*

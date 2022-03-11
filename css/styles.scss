@@ -334,6 +334,15 @@ section {
 
 
 
+/* ======= Services Section/Seção de Serviços ======== */
+.service {
+    @include grid(30rem);
+
+    .box {
+        text-align: center;
+        padding: 2rem;
+    }
+}
 
 
 
@@ -369,7 +378,10 @@ section {
     .banner .content h3 {
         font-size: 3rem;
     }
-
+    
+    .products .slide img {
+        height: 15rem;
+    }
 
 }
 
