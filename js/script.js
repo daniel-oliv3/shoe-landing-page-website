@@ -62,3 +62,23 @@ var swiper = new Swiper(" .products-slider", {
         },
     },
 });
+
+
+/*Swiper-slider Review btn slide*/
+var swiper = new Swiper(".reviews-slider", {
+    loop:true,
+    spaceBetween: 20,
+    grabCursor:true,
+    centeredSlides: true,
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      991: {
+        slidesPerView: 3,
+      },
+    },
+  });
